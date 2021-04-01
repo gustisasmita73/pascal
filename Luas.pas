@@ -1,4 +1,4 @@
-program LuasPersegi;
+program LuasPersegi;  {menghitung hasil perkalian elemen larik}
 var panjang : integer;
     lebar   : integer;
     Luas    : integer;
@@ -9,5 +9,5 @@ begin
   lebar     := 2;
   luas      := panjang * lebar;
   
-  writeln ('Luas Persegi adalah ', luas);
+  writeln ('Luas Persegi adalah ', luas);  
 end.
